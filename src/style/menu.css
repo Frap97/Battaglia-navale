@@ -1,0 +1,211 @@
+#root {
+  width: 100%;
+  height: 100vh;
+}
+.allPage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right,  rgb(0, 0, 71),  rgb(20, 44, 71));
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.header-firstPage {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-firstPage h1{
+  font-size: 4rem;
+    text-align: center;
+    color: coral;
+    opacity: 0.8;
+}
+
+.margin {
+  margin-top: 6rem;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menu {
+    margin-top: 0%;
+    color: coral;
+    line-height: 200%;
+    margin-left: 6%;
+
+}
+.welcome {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  width: 15rem;
+}
+.menu-item {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 9rem;
+}
+.menu-item:hover {
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: default;
+}
+
+.user {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: coral;
+    right: 0;
+
+}
+
+/* .menu-toggle{
+  display: none;
+} */
+  .score {
+    color: coral;
+    min-width: 30%;
+  }
+  .position {
+    position: absolute;
+    right: -2.5rem;
+    top: 8rem;
+  }
+
+  .score-title{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .single-score{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .single-score-item {
+    margin-left: 300px;
+  }
+
+  #topnav {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+  #topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    right: 1rem;
+  }
+  
+  /* Style the hamburger menu */
+  #topnav a.icon {
+    background: black;
+    display: block;
+
+
+  }
+  
+  /* Add a grey background color on mouse-over */
+  #topnav a:hover {
+    background-color: coral;
+    color: white;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #04AA6D;
+    color:coral;;
+  }
+  #myLinks {
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+    display: none;
+
+  }
+
+  .ingame {
+    margin-left: 3rem;
+    margin-top: 2rem;
+
+  }
+
+  .field{
+    height: 40%;
+    display: flex;
+    flex-direction: row;margin-top: 5rem;
+   /*   perspective: 250px;
+    transform: rotateX(60deg) rotateY(350deg) rotateZ(420deg) skewX(-10deg) translateX(15px) translateY(-120px) scale(.90);
+  */
+  }
+  .myfield, .field-avversario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    height: 100%;
+    margin-left: 5rem;
+  }
+  .field-avversario .square {
+    background-color:  rgb(70, 118, 174);
+    }
+
+  .square {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid black;
+    background-color: white;
+    
+  }
+
+  a {
+    text-decoration: none;
+    color: coral;
+  }
+  .ship {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+    cursor: move;
+  }
+  .two{
+    width: 6rem;
+    height: 3rem;
+  }
+  #ships{
+    position: absolute;
+    top: 2.875rem;;
+    left: 1rem;
+
+  }
+  #start{
+    position: absolute;
+    left: 1rem;
+    top: 8rem;
+  }
+  
+  #done{
+    position: absolute;
+    left: 0;
+    top: 6rem;
+    left: 1rem;
+  }
+  .margin {
+    margin-top: 10rem;
+  }
