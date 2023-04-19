@@ -1,4 +1,5 @@
-Progetto di battaglia navale in via di sviluppo utilizzando react di marzo 2023
+Progetto di battaglia navale in via di sviluppo utilizzando react di marzo 2023.
+
 Questo progetto è nato come HTML, CSS e Javascript puro, l'ho convertito in react per potermi esercitare con questa tecnologia appena cominciata al corso.
 Vi sono diverse chiamate al server, l'utilizzo di alcune funzioni per elaborare gli array, di componenti, pagine, rotte, stati e props.
 
